@@ -6,7 +6,7 @@ let generateRandom = () => {
 };
 let randomNumber = generateRandom();
 let attempts = 0;
-console.log(randomNumber);
+// console.log(randomNumber);
 document.getElementById("gift").hidden = true;
 // document.getElementById("message").hidden = true;
 function checkGuess() {
